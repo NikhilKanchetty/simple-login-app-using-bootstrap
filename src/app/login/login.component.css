@@ -1,0 +1,9 @@
+.container{
+    background-color: lightgoldenrodyellow;
+    border-radius: 14px;
+    margin: 0 auto;
+}
+#errMsgUsername, #errorMsgPassword {
+    font-size: 12px;
+    color: red;
+}

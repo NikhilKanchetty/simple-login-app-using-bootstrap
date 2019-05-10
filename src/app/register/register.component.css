@@ -1,0 +1,4 @@
+#firstNameErr, #lastNameErr, #emailIdErr, #passwordErr, #confirmPasswordErr {
+    font-size: 12px;
+    color: red;
+}

@@ -1,0 +1,33 @@
+<form action="#">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+
+        <label for="firstName">First Name</label>
+        <p id="firstNameErr" name="firstNameErr">{{firstNameErr}}</p>
+        <input type="text" name="firstName" id="firstName" [(ngModel)]="firstName">
+
+        <label for="lastName">Last Name</label>
+        <p id="lastNameErr" name="lastNameErr">{{lastNameErr}}</p>
+        <input type="text" name="lastName" id="lastName" [(ngModel)]="lastName">
+
+        <label for="emailId">EmailId</label>
+        <p id="emailIdErr" name="emailIdErr">{{emailIdErr}}</p>
+        <input type="text" name="emailId" id="emailId" [(ngModel)]="emailId">
+
+        <label for="password">password</label>
+        <p id="passwordErr" name="passwordErr">{{passwordErr}}</p>
+        <input type="text" name="password" id="password" [(ngModel)]="password">
+
+        <label for="confirmPassword">Confirm Password</label>
+        <p id="confirmPasswordErr" name="confirmPasswordErr">{{confirmPasswordErr}}</p>
+        <input type="text" name="confirmPassword" id="confirmPassword" [(ngModel)]="confirmPassword">
+      </div>
+    </div>
+    <div class="row">
+      <button type="submit" class="btn btn-primary" id="btnRegister" name="register" (click)="regValidation()">Register</button>
+      <!-- routerLink="" -->
+      <button type="cancel" class="btn btn-danger" id="btnCancel" name="cancel" routerLink="">Cancel</button>
+    </div>
+  </div>
+</form>
