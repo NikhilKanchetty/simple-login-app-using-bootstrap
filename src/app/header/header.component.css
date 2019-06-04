@@ -1,0 +1,10 @@
+.navbar {
+    background-color: lightskyblue;
+    color: black;
+    padding: 0px;
+}
+ul li.nav-item:hover {
+    background-color: blue;
+    border-radius: 14px;
+    padding: 5px;
+}
